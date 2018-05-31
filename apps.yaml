@@ -2,7 +2,8 @@
 
 # Each application running on a Hive network is described as follows:
 
-# - <App Name>:
+# - :
+#  name: <App name>
 #  ip: ///tmp/app_addr
 
 # IMPORTANT: App names must be unique within this .yaml file.
@@ -11,10 +12,12 @@
 # Hive applications.
 
 ---
+-
+  name: app1
+  ip: ///tmp/app1
 
-- app1:
-    ip: ///tmp/app1
+-
 
-- app2:
-    ip: ///tmp/app2
+  name: app2
+  ip: ///tmp/app2
 ...

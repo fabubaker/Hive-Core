@@ -3,8 +3,9 @@
 # Each sensor that the provider wishes to expose to
 # the Hive is added as follows:
 
-- <Sensor Name>:
-    - type: <VIDEO, AUDIO>
+# - :
+#     - name: <Sensor Name>
+#     - type: <VIDEO, AUDIO>
     
 # Note that 'Sensor Name' must be unique within
 # a provider instance. The same name must be used
