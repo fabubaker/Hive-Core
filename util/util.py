@@ -1,5 +1,5 @@
 """
-Utilities for Hive runtimes.
+Common utilities for Hive runtimes.
 """
 
 from datetime import datetime
