@@ -1,0 +1,17 @@
+# Sensor configuration file for a Hive provider.
+
+# Each sensor that the provider wishes to expose to
+# the Hive is added as follows:
+
+- <Sensor Name>:
+    - type: <VIDEO, AUDIO>
+    
+# Note that 'Sensor Name' must be unique within
+# a provider instance. The same name must be used
+# when initializing the sensor in the runtime.
+
+# Use this file as a template for configuring your
+# custom sensors on the provider device.
+---
+
+...

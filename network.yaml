@@ -1,0 +1,36 @@
+# Network configuration file for a Hive network.
+
+# Each device in a Hive network is added as follows:
+
+# - <Device Name>:
+#     ip: <IP address of device>
+#     port: <Port that is running a Hive instance>
+#     type: <SEEKER, PROVIDER, QUEEN>
+
+# The <Device Name> can be used internally
+# when writing Hive apps.
+
+# IMPORTANT: The same .yaml file must be used for all
+# Hive runtimes in the network.
+
+# Use this file as a template for configuring your
+# custom Hive network.
+
+---
+
+- rpi1:
+    ip: 127.0.0.1
+    port: 9000
+    type: PROVIDER
+
+- rpi2:
+    ip: 127.0.0.1
+    port: 9001
+    type: SEEKER
+
+- rpi3:
+    ip: 127.0.0.1
+    port: 9002
+    type: QUEEN
+
+...
