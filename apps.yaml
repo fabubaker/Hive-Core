@@ -1,0 +1,20 @@
+# Application configuration file for a Hive network.
+
+# Each application running on a Hive network is described as follows:
+
+# - <App Name>:
+#  ip: ///tmp/app_addr
+
+# IMPORTANT: App names must be unique within this .yaml file.
+
+# Use this file as a template for configuring your custom
+# Hive applications.
+
+---
+
+- app1:
+    ip: ///tmp/app1
+
+- app2:
+    ip: ///tmp/app2
+...
