@@ -27,7 +27,6 @@ if __name__ == "__main__":
     parser.add_argument("my_name", help="The name of this provider. \
                                         Must be a name from network.yaml")
     parser.add_argument("ipc_port", help="Port used to communicate with Hive apps.")
-    parser.add_argument("tcp_port", help="Port used to communicate with Hive devices.")
     args = parser.parse_args()
 
     ctx = zmq.Context()
